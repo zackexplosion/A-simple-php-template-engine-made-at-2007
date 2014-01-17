@@ -1,0 +1,176 @@
+* {
+	margin:0;
+	padding:0;
+}
+
+html {
+	position:relative;
+	background:#000;
+	padding:10px;
+}
+
+body {
+	
+	margin:0 auto;
+	padding:1px;
+	width:900px;
+	min-width:780px;
+	max-width:900px;
+	color:#CCC;
+	font-family:"Aral";
+	font-weight:600;
+	/*border:1px #FFF solid;*/
+}
+h1,h2,h3,h4,h5,h6 {
+	
+	color:#cc0000;
+}
+
+h2{	
+	font-weight:800;
+	font-size:30px;
+}
+.title {
+	position:relative;
+	border-bottom:1px #000 solid;
+	margin-bottom:2em;
+}
+
+.date{
+	position:absolute;	
+	padding:2px;	
+	font-size:1em;
+	color:#000;
+	border:1px #000 solid;
+	right:0;
+}
+
+#skip{
+	position:absolute;
+	height:0px;
+	overflow:hidden;
+}
+
+#header{
+	height:100px;
+	margin-bottom:20px;
+	/*border:1px white solid;*/
+	position:relative;
+}
+
+#header h1 {
+	position:absolute;
+	top:0;
+	left:0;
+	background:url("/images/WAAGGHH.png") no-repeat;
+	width:300px;
+	height:100px;
+	font-size:1px;
+	text-indent:-999px;
+	/*display:none;*/
+}
+
+#nav{
+	position:absolute;
+	/*background:url("/images/relic00101.png") top right no-repeat #CCC;*/
+	top:30%;
+	right:0;
+	bottom:0;
+	padding:5px;
+	padding-left:200px;
+	padding-right:60px;
+	height:50px;
+	/*background:#009933;*/
+	display:block;
+	font-weight:600;
+}
+
+#nav ul {
+	position:relative;
+	right:0;
+	text-align:right;
+}
+
+#nav a , #nav li {
+	color:#990000;
+	padding-left:20px;
+	text-decoration:none;
+	display:inline;
+}
+
+#nav a:hover{	
+	color:#ccc;
+	text-decoration:underline;
+}
+
+
+#content {
+	background:#CCC;
+	float:left;
+	margin:0;
+	padding:0.5em;
+	color:#000;
+	width:580px;
+	/*border:1px white solid;*/
+	line-height:1.5;
+}
+
+#content p{
+	margin-top:0.8em;
+}
+#content p:first-letter{
+	font-size:1.3em;
+	font-weight:800;
+}
+
+#content a{
+	color:red;
+}
+
+#right {
+	/*margin-left:630px;*/
+	margin-left:680px;
+	margin-right:0;
+	/*width:250px;*/
+	width:150px;
+}
+
+#right ul {
+	/*list-style:circle;*/
+}
+
+#right a {
+	margin-top:2px;
+	text-decoration:none;
+	font-weight:600;
+	color:blue;
+	border-bottom:1px solid #ccc;
+	display:block;
+}
+
+#right h2{
+	text-align:right;
+}
+
+#right div{
+	margin-top:10px;
+	padding:3px;
+	border:1px solid #CCC;
+}
+
+#login {
+	font-weight:600;
+}
+#footer {
+	margin-top:50px;
+	padding:3px;
+	/*border:1px solid #CCC;*/
+	text-align:left;
+	clear:both;
+}
+
+#footer a {
+	text-decoration:none;
+	font-weight:600;
+	color:#cc0000;
+}

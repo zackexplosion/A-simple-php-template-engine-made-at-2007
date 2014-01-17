@@ -1,0 +1,7 @@
+h1{
+	background:transparent;
+	font-size:25pt;
+}
+#toolbar,#skip{
+	display:none;
+}
